@@ -12,6 +12,8 @@ import functools
 config.env = "dev"      # the environment the application is in
 config.service = "flask-server"  # name of your application
 config.version = "0.0.1"  # version of your application
+import logging
+logging.basicConfig()
 patch_all()
 
 
